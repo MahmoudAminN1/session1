@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get" autocomplete="on">
+        <label for="email">Email:</label>
+    <input autofocus placeholder="Email" ْrequired type="email" name="email" id="email">
+    <input type="text" readonly disabled value="Read Only Text">
+    <label for="password">Password:</label>
+    <input placeholder="Password" minlength="3" maxlength="10" type="password" name="password" id="password">
+    <input type="number" placeholder="number" name="" min="0" max="100" id="">
+    <input type="date" name="birth_date" min="2000-01-01" max="2024-06-06"  id="">
+    <input type="tel" name="PhoneNumber" pattern="01[0|1|2|5][\d]{8}">
+    <input type="submit" >
+    <fieldset>
+        <legend>Choose your favorite programming language:</legend>
+        <input type="radio" name="language" id="html" value="html">
+        <label for="html">HTML</label>
+        <input type="radio" name="language" id="css" value="css">
+        <label for="css">CSS</label>
+        <input type="radio" name="language" id="js" value="js">
+        <label for="js">JavaScript</label>
+    </fieldset>
+    <textarea name="" id=""></textarea>
+    <select name="" id="">
+        <optgroup label="German Cars">
+        <option value="bmw">BMW</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+        </optgroup>
+        <optgroup label="swedish cars">
+            <option value="volvo">Volvo</option>
+        </optgroup>
+        <optgroup label="American Cars">
+            <option value="tesla">Tesla</option>
+            <option value="ford">Ford</option>
+        </optgroup>
+
+    </select>
+
+    <label for="itms">please select</label>
+    <input list="itms" name="item" id="item">
+    <datalist id="itms">
+        <option value="item1"></option>
+        <option value="item2"></option>
+        <option value="item3"></option>
+    </datalist>
+</form>
+<p>test</p>
+</body>
+</html>
